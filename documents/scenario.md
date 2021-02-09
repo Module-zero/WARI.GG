@@ -2,7 +2,7 @@
 # WARI.GG 업무분석 (시나리오)
 
 ## 회원 서비스
-✏️ Written By 우리들의 마지막 박원창 은 이걸 읽어보면 수정하겠지?
+✏️ Written By the number one champion wonchang Park
 
 #### 회원가입 📝
 - **회원 가입, 회원 정보 수정, 회원 탈퇴** 기능을 제공하는 서비스  
