@@ -82,7 +82,7 @@ ii.	각 데이터를 NoSQL 에서 Select 를 한 후 Application에서 Join한�
  ▶︎▹ 트리 구조 자체를 하나의 value 에 저장하는 방법  
  ▶︎▹ JSON or XML 등을 이용하여 Tree 구조를 정의한다.  
  ▶︎▹ Tree 자체가 크지 않고, 변경이 많이 없는 경우에 적합  
-<img src="./image/tree_aggregates.png" width="50%" height="50%"/>
+<img src="./image/tree_aggregates.jpeg" width="50%" height="50%"/>  
 -	Materialized Path  
 i.	Tree 구조를 테이블에 저장할 때, Root에서부터 현재 노드까지의 전체 경로를 key로 저장하는 방법  
 ii.	특정 노드의 하위 트리를 한번에 가져오기 쉽다.  
