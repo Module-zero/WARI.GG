@@ -87,11 +87,10 @@ ii.	각 데이터를 NoSQL 에서 Select 를 한 후 Application에서 Join한�
 
 -	Materialized Path  
 i.	Tree 구조를 테이블에 저장할 때, Root에서부터 현재 노드까지의 전체 경로를 key로 저장하는 방법    
-ii.	특정 노드의 하위 트리를 한번에 가져오기 쉽다.    
-1.	 
- 
- 
- 
+ii.	특정 노드의 하위 트리를 한번에 가져오기 쉽다.    	 
+<img src="./image/materialized_path.jpeg" width="50%" height="50%"/>
+
+
 ## 모델링 순서  
 ###### 1.	도메인 모델 파악    
  ▶︎▹ 개체 파악, 개체간 관계 분석    
