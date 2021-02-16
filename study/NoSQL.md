@@ -48,7 +48,7 @@
 ###### Aggregates 
    ▶︎▹ 유연한 스키마  
    ▶︎▹ File 이라는 테이블로 여러 데이터를 커버 가능  
-   ![이미지](/Users/jeonka/Desktop/aggregates.png)
+   ![이미지](./image/aggregates.png)
 ###### Application Side Joins
 - 어쩔 수 없이 Join 대상 데이터에 대해 비 정규화, 어그리게이션을 수행할 때 문제가 발생하는 경우  
     ex i.	Join 대상 데이터가 다대다 ( N:M) 관계  
