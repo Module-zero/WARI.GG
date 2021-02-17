@@ -29,12 +29,12 @@
      - github 상에 변경사항이 적용되어있는 server_issue 라는 새로운 브랜치가 생성된다.
 
 ### **4. pull request 요청**
-     - pull request 를 요청해서 github 상에서 develop 브랜치에 server_issue 브랜치를 merge 한다.
+     - pull request 를 요청해서 팀원들의 동의를 얻은 뒤, 통과되면 github 상에서 develop 브랜치에 server_issue 브랜치를 merge 한다.
      - 그리고 github 상에서 server_issue 브랜치를 삭제하면 github 상에서의 작업은 끝난다.
 
 ### **5. git branch -D server_issue + git pull origin develop**
      - 이제 로컬에 있는 server_issue 브랜치도 역할을 다했으니 삭제한다.
-     - 그리고 github 상에 develop 브랜치를 로컬로 끌고 옴으로서 로컬의 develop 브랜치도 최신상태를 유지하도록 한다.
+     - 그리고 github 상에 develop 브랜치를 로컬로 끌고 옴으로써 로컬의 develop 브랜치도 최신상태를 유지하도록 한다.
 <br/>
 
 ## CASE 2.&nbsp; 수정 사항을 github 에서 내려받아야 할 때
