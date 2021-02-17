@@ -1,2 +1,2 @@
 # ER-Diagram
-<img src=./image/ER-Diagram.jpg width="100%" height="100%"/>
+<img src=./images/ER-Diagram.jpg width="100%" height="100%"/>
