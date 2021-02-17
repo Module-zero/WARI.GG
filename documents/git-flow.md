@@ -5,6 +5,8 @@
  링크 : https://woowabros.github.io/experience/2017/10/30/baemin-mobile-git-branch-strategy.html
  </br></br>
 
+> 대략적인 흐름은 다음과 같다
+
 - 처음 git 을 만들면 master 브랜치가 생긴다
 - master 브랜치는 배포가 가능한 버전들만 올리는 브랜치라고 보면된다
 - 따라서 실제 개발을 할 때는 master 브랜치에서 develop 브랜치를 생성하여, **develop 브랜치에서 개발을 진행한다.**
@@ -16,7 +18,6 @@
 ## CASE 1.&nbsp; 수정사항을 github 에 올려야 할 때
 
 > 서버 코드 수정 작업을 완료해서 이를 github 상에 올려야하는 상황이라고 가정해보자
-
 
 ### **1. git checkout develop + git checkout -b server_issue**
      - 반드시 develop 브랜치에서 임시 브랜치를 생성해야 하므로 먼저 develop 브랜치로 이동한다.
@@ -38,3 +39,5 @@
 <br/>
 
 ## CASE 2.&nbsp; 수정사항을 github 에서 내려받아야 할 때
+
+> 수정사항을 github 에서 로컬로 내려받아야하는 상황이라고 가정해보자
