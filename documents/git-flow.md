@@ -1,8 +1,10 @@
 # GIT FLOW
 
- #### git-flow 란 소프트웨어의 소스코드를 관리하고 출시하기 위한 ‘브랜치 관리 전략(branch management strategy)’중 하나이다.
+ ### git-flow 란 소프트웨어의 소스코드를 관리하고 출시하기 위한 ‘브랜치 관리 전략(branch management strategy)’중 하나이다.
+ </br>
 
- > 링크 : https://woowabros.github.io/experience/2017/10/30/baemin-mobile-git-branch-strategy.html
+ 링크 : https://woowabros.github.io/experience/2017/10/30/baemin-mobile-git-branch-strategy.html
+ </br>
 
 - 처음 git 을 만들면 master 브랜치가 생긴다
 - master 브랜치는 배포가 가능한 버전들만 올리는 브랜치라고 보면된다
