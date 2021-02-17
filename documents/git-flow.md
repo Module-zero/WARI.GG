@@ -9,7 +9,7 @@
 - master 브랜치는 배포가 가능한 버전들만 올리는 브랜치라고 보면된다
 - 따라서 실제 개발을 할 때는 master 브랜치에서 develop 브랜치를 생성하여, **develop 브랜치에서 개발을 진행한다.**
 - github 상에서 develop 브랜치를 default 브랜치로 설정한다
-- **develop 브랜치에서 각 이슈에 해당하는 임시 브랜치를 생성하여 작업한 후, 다시 develop 브랜치로 통합(merge)한다**
+- **develop 브랜치에서 각 이슈에 해당하는 임시 브랜치(hotfix branch)를 생성하여 작업한 후, 다시 develop 브랜치로 통합(merge)한다**
 - develop 브랜치로 통합할 때는, github 에서 pull request 을 올려 팀원들의 동의를 얻어 merge 한다
 <br/><br/>
 
@@ -37,4 +37,4 @@
      - 그리고 github 상에 develop 브랜치를 로컬로 끌고 옴으로써 로컬의 develop 브랜치도 최신상태를 유지하도록 한다.
 <br/>
 
-## CASE 2.&nbsp; 수정 사항을 github 에서 내려받아야 할 때
+## CASE 2.&nbsp; 수정사항을 github 에서 내려받아야 할 때
