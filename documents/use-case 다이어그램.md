@@ -1,2 +1,2 @@
 # Use-Case-Diagram
-<img src=./images/ER-Diagram.jpg width="100%" height="100%"/>
+<img src=images/Use-Case-Diagram.jpg width="100%" height="100%"/>
