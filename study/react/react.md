@@ -1,5 +1,5 @@
 # React
-- react 공식 문서 - www.react.org
+- react 공식 문서 - https://ko.reactjs.org/docs/getting-started.html
 - npm 관련 공부 - https://seomal.org
 ## 실습환경 구축
 #### npm 설치
