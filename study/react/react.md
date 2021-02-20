@@ -6,11 +6,11 @@
 1. www.nodejs.org 사이트에 가서 운영체제에 맞는 파일을 다운받은 후 설치.
 2. 설치 확인은 ```terminal``` 에서 ```npm -v``` 를 통해 할 수 있다.
 ### react 설치
-1. 전역으로 설치
+1. 전역으로 영구 설치(npm)
 ```
 sudo npm install -g create-react-app
 ```
-1. 일시적으로 한번만 설치
+1. 일시적으로 한번만 설치(npx)
 ```
 npx create-react-app
 ```
