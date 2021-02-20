@@ -1,6 +1,6 @@
 # React
 - react 공식 문서 - www.react.org
-- npm 관련 공부 - seomal.org
+- npm 관련 공부 - www.seomal.org
 ## 실습환경 구축
 #### npm 설치
 1. www.nodejs.org 사이트에 가서 운영체제에 맞는 파일을 다운받은 후 설치.
