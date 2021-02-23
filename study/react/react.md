@@ -138,6 +138,7 @@ class App extends Component{
 
 ## props
 - 어떠한 값을 컴포넌트에게 전달해 주기 위해 사용.
+- 함수 또한 전달 가능하다.
 
 #### 전달하는 방법
 만약 ```App``` 에서 ```Subject``` 로 전달하고자 하는 값이 **"HELLO"** 와 **"i am fine thank you"** 라는 값이라면
