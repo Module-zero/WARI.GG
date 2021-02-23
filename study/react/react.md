@@ -208,3 +208,81 @@ class App extends Component{
 즉, ```state``` 값을 초기화 할 때 사용한다.
 
 ## key
+- react 가 어떤 항목을 _추가_,_변경_,_삭제_ 했는지 빠르게 파악하도록 돕는다.  
+- 즉, 여러 엘리먼트로 이루어진 배열을 사용할 때, 각 엘리먼트에 안정적인 고유성을 부여하기 위해 각 _엘리먼트에 주는 고유값_ 이다.  
+- 대부분의 경우 **데이터의 고유한 문자열** 을 ```key``` 로 사용하지만, 불가능할 경우 ```index``` 로 ```key``` 를 사용할 수 있다.
+
+```
+1   import React, {Component} from 'react;
+2   
+3   class App extends Component{
+4     render() {
+5       var contents = ['apple','banana','orange'];
+6       var list = contents.map(
+7         (content)=> (<li key={content}>{content}</li>)
+8       );
+9       return (
+10        <div className="App">
+11          <ul>
+12            {list}
+13          </ul>
+14        </div>
+15      );
+16    }
+17  }
+```
+위 의 7번째 의 ```li``` 태그 내부를 보면 ```key={content}``` 를 볼 수 있다.  
+이는 react 내부에서 해당 요소를 각각 구분하기 위해 부여받는 것이다.
+
+---
+---
+
+## event
+- 사용자가 특정 행동을 해서 브라우저의 상태를 바꾸는 것
+- 이벤트가 발생할 경우 특정 함수가 실행되도록 하는 것을 _이벤트를 심는것_ 이라 함.
+
+#### 종류
+대표적으로 자주 사용되는 3가지가 있다.
+- onClick
+- onChange
+- preventDefault  
+
+#### 사용 예시
+```
+<a onClick={function(e){
+        // 여기에 함수를 작성
+    }.bind(this)
+}>
+```
+
+이러한 식으로 사용되며, ```preventDefault```의 경우 전달인자인 e를 통해 사용할 수 있다.  
+
+만약 함수의 몸체가 크다면 따로 함수화 시켜 아래와 같이 사용할 수 있다.
+```
+constructor(props){
+    super(props);
+    this.clickHandler = this.clickHandler.bind(this);
+}
+
+clickHandler(e){
+    //함수를 작성
+}
+
+<a onClick={this.clickhandler}>
+```
+- bind(this)를 하는 이유는 자바스크립트는 함수 내에서 ```this``` 는 기본적으로 ```window``` 이다.
+- 따라서 ```this``` 를 ```window``` 가 아닌 원하는 객체에 하기 위해서는 **bind( _객체_ )** 를 해줘야 한다.
+
+#### state의 값 변경하기
+```react``` 의 ```state``` 값을 변경하기 위해 ```this.state = value```를 직접적으로 하면 안된다.  
+이는 값이 변경되더라도 ```react``` 에서 인식(?) 하지 못하기 때문에 브라우저상에서 변경된 값으로 표시되지 않기 때문이다.  
+따라서 값을 변경하기 위해서는 ```this.setState()```함수를 통해 ```state```값을 변경해야 한다.
+
+###### 예시
+```state``` 내부의 ```content``` 라는 값의 변경을 위해서는 아래와같이 해야한다.
+```
+this.setState(
+    {content:'hello'}
+)
+```
+
