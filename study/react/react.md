@@ -286,4 +286,33 @@ this.setState(
     {content:'hello'}
 )
 ```
+## CRUD
+- create, read, update, delete
+// 정리 예정
 
+## 기타
+
+#### map 함수
+
+```
+//일반 배열의 경우
+var contents = ['사과','바나나','포도];
+var list = contents.map(
+    (item)=>(<li key={item}>{item}</li>)
+)
+<ul>
+    {list}
+</ul>
+```
+
+```
+//객체 배열의 경우
+var contents = [
+    {num:1, name:'사과'},
+    {num:2, name:'바나나'},
+    {num:3, name:'포도'}
+]
+var list = contents.map(
+    (item)=>(<li key={item.num}>{item.name}</li>)
+)
+```
