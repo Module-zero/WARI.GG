@@ -22,5 +22,5 @@
 - UseCase Diagram, ER-Diagram : GoogleDrive(협업을 위한 공유), Draw.io
 
 ## [개발 예정] ✈️
-> RiotGames 의 API 제공 시 
+> RiotGames 의 API 제공 시   
 전적 검색, 랭크별 KDA 등..
