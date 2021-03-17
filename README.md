@@ -20,6 +20,7 @@
 
 ## [개발을 위해 사용한 것]🛠
 - 앱 UI 디자인 : Figma.com 
+- UseCase Diagram, ER-Diagram : GoogleDrive(협업을 위한 공유), Draw.io
 
 ## [아주 먼 미래에는] ✈️
 전적 검색, 랭크별 KDA 등..
